@@ -9,11 +9,338 @@
 
     <link href="index.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
 </head>
 
 <body>
 
-    <div class="wd-topnav">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-2 col-sm-4 col-md-4 col-lg-2 col-xl-2 col-xxl-2 leftNav">
+
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <div class="list-group mb-3">
+                        <a href="../home.html" class="list-group-item list-group-item-action">
+                            <span class="d-inline-block">
+                                <i class="fa fa-home" aria-hidden="true"><span
+                                        class="d-none d-xl-inline-block wd_iconText">Home</span></i>
+                            </span>
+
+
+                        </a>
+                        <a href="../explore/index.html" class="list-group-item list-group-item-action active">
+                            <span class="d-inline-block">
+                                <i class="fa fa-hashtag" aria-hidden="true">
+                                    <span class="d-none d-xl-inline-block wd_iconText">Explore</span>
+                                </i>
+                            </span>
+                        </a>
+                        <a href="../home.html" class="list-group-item list-group-item-action">
+
+                            <span class="d-inline-block">
+                                <i class="fa fa-bell" aria-hidden="true">
+                                    <span class="d-none d-xl-inline-block wd_iconText">Notifications</span>
+                                </i>
+
+                            </span>
+                        </a>
+                        <a href="../home.html" class="list-group-item list-group-item-action">
+
+                            <span class="d-inline-block">
+                                <i class="fa fa-envelope" aria-hidden="true">
+                                    <span class="d-none d-xl-inline-block wd_iconText">Messages</span>
+                                </i>
+                            </span>
+                        </a>
+                        <a href="../bookmarks/index.html" class="list-group-item list-group-item-action">
+                            <span class="d-inline-block">
+                                <i class="fa fa-bookmark" aria-hidden="true">
+                                    <span class="d-none d-xl-inline-block wd_iconText">Bookmark</span>
+                                </i>
+                            </span>
+                        </a>
+                        <a href="../home.html" class="list-group-item list-group-item-action">
+
+                            <span class="d-inline-block">
+                                <i class="fa fa-list" aria-hidden="true">
+                                    <span class="d-none d-xl-inline-block wd_iconText">Lists</span>
+                                </i>
+                            </span>
+                        </a>
+                        <a href="../profile.html" class="list-group-item list-group-item-action">
+
+                            <span class="d-inline-block">
+                                <i class="fa fa-user" aria-hidden="true">
+                                    <span class="d-none d-xl-inline-block wd_iconText">Profile</span>
+                                </i>
+                            </span>
+                        </a>
+                        <a href="../navigation.html" class="list-group-item list-group-item-action">
+                            <span class="d-inline-block">
+                                <i class="fa fa-ellipsis-h" aria-hidden="true">
+                                    <span class="d-none d-xl-inline-block wd_iconText">More</span>
+                                </i>
+                            </span>
+                        </a>
+                    </div>
+
+                    <button class="btn btn-primary">
+                        Tweet
+                    </button>
+                </div>
+
+
+
+            </div>
+            <div class="col-8 scol-sm-8 scol-md-8 col-lg-8 col-xl-8 col-xxl-8">
+                <div class="row mb-3">
+
+
+                    <form class="navbar-form" role="search">
+                        <div class="input-group">
+                            <span class="input-group-text wd_search_icon">
+                                <i class="fa fa-search"></i>
+                            </span>
+                            <input type="text" class="form-control wd_search_icon_input" placeholder="Search twitter">
+                            <span style="margin-left: 10px;">
+                                <i class="fa fa-cog" style="font-size: 1.7em; color: rgb(29,161,242);"></i>
+                            </span>
+                        </div>
+
+
+                    </form>
+
+
+                </div>
+
+                <div class="row">
+
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">For you</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Trending</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sports</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Entertainment</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="myContainer">
+                    <img src="../../tuiter/images/spaceX.jpg" style="width:100%; height: 300px;">
+                    <div class="bottom-left fa-2x">SpaceX Launch</div>
+                </div>
+
+
+                <div class="contentBox">
+                    <div class="card">
+
+                        <div class="card-body">
+                            <!-- <h5 class="card-title">Card title</h5> -->
+                            <div>
+                                <p>Web Development</p>
+                                <p class="wd-postTrendingTitle bold">ReactJS
+                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                    <span class="wd-postTrendingTittleSub"> - 2h</span>
+                                </p>
+
+                            </div>
+                            <p class="card-text bold">React is a popular JavaScript-based library used for building user
+                                interfaces with a component-based architecture approach. </p>
+                        </div>
+                        <img src="../../tuiter/images/rec.png" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="card">
+
+                        <div class="card-body">
+                            <!-- <h5 class="card-title">Card title</h5> -->
+                            <div>
+                                <p class="wd-postTrendingTitle bold">JavaScript
+                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                    <span class="wd-postTrendingTittleSub"> - 2h</span>
+                                </p>
+
+                            </div>
+                            <p class="card-text bold">React is a popular JavaScript-based library used for building user
+                                interfaces with a component-based architecture approach. </p>
+                            <p>123K Tweets</p>
+                        </div>
+                        <img src="../../tuiter/images/jsLogo.png" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="card">
+
+                        <div class="card-body">
+                            <!-- <h5 class="card-title">Card title</h5> -->
+                            <p>Web Development</p>
+                            <div>
+                                <p class="wd-postTrendingTitle bold">Jquery
+                                    <span class="wd-postTrendingTittleSub"> - 2h</span>
+                                </p>
+
+                            </div>
+                            <p>123K Tweets</p>
+                        </div>
+                        <img src="../../tuiter/images/jqueryLogi.png" class="card-img-top" alt="...">
+                    </div>
+
+                    <div class="card">
+
+                        <div class="card-body">
+                            <!-- <h5 class="card-title">Card title</h5> -->
+                            <p>Web Development</p>
+                            <div>
+                                <p class="wd-postTrendingTitle bold">NodeJS
+                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                    <span class="wd-postTrendingTittleSub"> - 2h</span>
+                                </p>
+
+                            </div>
+                            <p>123K Tweets</p>
+                        </div>
+                        <img src="../../tuiter/images/node.png" class="card-img-top" alt="...">
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-lg-2 col-xl-2 col-xxl-2 d-none d-lg-block d-xl-block d-xxl-blocks leftNav">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-header">
+                        Who to follow
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-lg-3 col-xl-3 col-xxl-3">
+                                    <img src="../../tuiter/images/java.png" class="card-img-top logo_sideBar" alt="...">
+                                </div>
+                                <div class="col-lg-5 col-xl-5 col-xxl-5">
+                                    <div class="wd-sideNavHeader bold">Java
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </div>
+                                    <span class="wd-postTrendingTittleSubSide"> @java</span>
+                                </div>
+                                <div class="col-lg-4 col-xl-4 col-xxl-4">
+                                    <button class="btn btn-primary">
+                                        Follow
+                                    </button>
+                                </div>
+
+                            </div>
+
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-lg-3 col-xl-3 col-xxl-3">
+                                    <img src="../../tuiter/images/relate.jfif" class="card-img-top logo_sideBar"
+                                        alt="...">
+                                </div>
+                                <div class="col-lg-5 col-xl-5 col-xxl-5">
+                                    <div class="wd-sideNavHeader bold">Relativity Space
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </div>
+                                    <span class="wd-postTrendingTittleSubSide"> @relativespace</span>
+                                </div>
+                                <div class="col-lg-4 col-xl-4 col-xxl-4">
+                                    <button class="btn btn-primary">
+                                        Follow
+                                    </button>
+                                </div>
+
+                            </div>
+
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-lg-3 col-xl-3 col-xxl-3">
+                                    <img src="../../tuiter/images/virgin.svg" class="card-img-top logo_sideBar"
+                                        alt="...">
+                                </div>
+                                <div class="col-lg-5 col-xl-5 col-xxl-5">
+                                    <div class="wd-sideNavHeader bold">Virigin Galactic
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </div>
+                                    <span class="wd-postTrendingTittleSubSide"> @virgingalactic</span>
+                                </div>
+                                <div class="col-lg-4 col-xl-4 col-xxl-4">
+                                    <button class="btn btn-primary">
+                                        Follow
+                                    </button>
+                                </div>
+
+                            </div>
+
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-lg-3 col-xl-3 col-xxl-3">
+                                    <img src="../../tuiter/images/nasa.jfif" class="card-img-top logo_sideBar"
+                                        alt="...">
+                                </div>
+                                <div class="col-lg-5 col-xl-5 col-xxl-5">
+                                    <div class="wd-sideNavHeader bold">Nasa
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </div>
+                                    <span class="wd-postTrendingTittleSubSide"> @nasa</span>
+                                </div>
+                                <div class="col-lg-4 col-xl-4 col-xxl-4">
+                                    <button class="btn btn-primary">
+                                        Follow
+                                    </button>
+                                </div>
+
+                            </div>
+
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-lg-3 col-xl-3 col-xxl-3">
+                                    <img src="../../tuiter/images/tesla.png" class="card-img-top logo_sideBar"
+                                        alt="...">
+                                </div>
+                                <div class="col-lg-5 col-xl-5 col-xxl-5">
+                                    <div class="wd-sideNavHeader bold">Tesla
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                    </div>
+                                    <span class="wd-postTrendingTittleSubSide"> @tesla</span>
+                                </div>
+                                <div class="col-lg-4 col-xl-4 col-xxl-4">
+                                    <button class="btn btn-primary">
+                                        Follow
+                                    </button>
+                                </div>
+
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <!-- <div class="wd-topnav">
         <div class="wd-input-icons">
             <i class="fa fa-search wd-icon"></i>
             <input class="wd-input-field" type="text" placeholder="Search Tuiter">
@@ -143,7 +470,7 @@
 
 
 
-    </div>
+    </div> -->
 
 
 

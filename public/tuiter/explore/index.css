@@ -1,4 +1,4 @@
-html {
+/* html {
     background-color: black;
 }
 
@@ -41,7 +41,8 @@ margin: 20px 0;
     font-size: 30px;
     color: #1DA1F2;
 }
-/*  change all link colors */
+
+
 :link { color: #1DA1F2; }
 :visited { color: #1DA1F2; }
 
@@ -112,4 +113,143 @@ margin: 20px 0;
     color: rgb(110, 118, 125);
 }
 
+ */
 
+ html {
+    background-color: black !important;
+}
+
+ body {
+    background-color: black !important;
+    color: white;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  
+  .wd_search_icon {
+    border-top-left-radius: 50px !important;
+    border-bottom-left-radius: 50px !important;
+    background-color: rgb(110, 118, 125) !important;
+    border-color: rgb(110, 118, 125) !important;
+  }
+
+  .wd_search_icon_input {
+    border-top-right-radius: 50px !important;
+    border-bottom-right-radius: 50px !important;
+    background-color: rgb(110, 118, 125) !important;
+    color: darkgray !important;;
+  }
+
+  .form-control {
+    border-color: rgb(110, 118, 125) !important;
+  }
+
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: white !important;
+    font-weight: 700;
+    background-color: black !important;
+    border-color: black black rgb(29,161,242)  !important;
+    border-bottom: 5px solid rgb(29,161,242) !important;
+}
+
+.nav-link {
+    color: darkgray !important;
+    border-color: black;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: black black rgb(29,161,242)  !important;
+    border-bottom: 5px solid rgb(29,161,242) !important;
+    isolation: isolate;
+}
+
+  /* .nav-tabs .nav-item.show .nav-link {
+    color: darkgray !important;
+    background-color: black !important;
+    border-color: black !important;
+}
+
+   .nav-tabs .nav-link.active {
+    color: white !important;
+    background-color: black !important;
+    border-top-color: black !important;
+    border-bottom-color: 10px solid rgb(29,161,242);
+} */
+
+  .btn-primary{
+        border-radius: 40px !important;
+  }
+
+  .wd_iconText {
+    margin-left: 10px;
+  }
+
+  .myContainer {
+    position: relative;
+  text-align: center;
+  color: white;
+  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+
+  .contentBox .card {
+    flex-direction: row;
+  }
+
+  .contentBox .card img {
+    width: 15%;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  .contentBox p {
+    margin-bottom: 0px !important;
+  }
+
+  .wd-postTrendingTittleSub {
+    font-weight: 400;
+  }
+
+  .logo_sideBar {
+    width: 50px;
+    height: 50px;
+    /* border-radius: 30px; */
+  }
+
+  .wd-sideNavHeader {
+    margin-bottom: 0px !important;
+    font-size: 15px;
+  }
+
+  .wd-postTrendingTittleSubSide {
+    font-weight: 400;
+    font-size: 13px;
+  }
+
+  .card {
+    background-color: black !important;
+    color: darkgray !important;
+    border-color: rgb(110, 118, 125) !important;
+  }
+
+  .leftNav .card {
+    border-color: black !important;
+  }
+
+  .leftNav .list-group-item {
+    color: darkgray !important;
+    background-color: black !important;
+    border-color: black !important;
+  }
+
+  .wd-postTrendingTitle { 
+    color: white;
+}
+
+  
