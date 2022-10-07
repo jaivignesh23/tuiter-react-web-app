@@ -229,6 +229,17 @@ margin: 20px 0;
     margin-right: 13px;
   }
 
+  .list-group-item.active {
+    z-index: 2 !important;
+    color: #fff !important;
+    /* background-color: #0d6efd;
+    border-color: #0d6efd; */
+}
+
+.list-group-item+.list-group-item.active {
+    color: #fff !important;
+}
+
   .wd-sideNavHeader {
     margin-bottom: 0px !important;
     font-size: 15px;
