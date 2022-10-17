@@ -5,10 +5,10 @@ const NavigationSidebar = () => {
           <i class="fab fa-twitter"></i></a>
           <!-- continue rest of list, e.g.,
                Home, Explore, Notifications,  Messages, etc. -->
-        <a id="homeScreen" class="list-group-item" href="/public/tuiter/HomeScreen/index.html">
+        <a id="homeScreen" class="list-group-item" href="/tuiter/HomeScreen/index.html">
           <i class="fab fa fa-home"></i><span class="d-none d-xl-inline-block wd_iconText">Home</span></a>
 
-          <a id="exploreScreen" class="list-group-item active" href="/public/tuiter/explore/index.html">
+          <a id="exploreScreen" class="list-group-item active" href="/tuiter/explore/index.html">
           <i class="fab fa fa-hashtag"></i><span class="d-none d-xl-inline-block wd_iconText ">Explore</span></a>
 
           <a id="notificationScreen" class="list-group-item" href="/">
