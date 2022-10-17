@@ -26,6 +26,12 @@ function exploreComponent() {
   </div>
 
     `);
+
+    const removeClass1Example = $("#homeScreen");
+    removeClass1Example.removeClass('active');
+    
+    const addClass1Example = $("#exploreScreen");
+    addClass1Example.addClass('active');
  }
  
  $(exploreComponent);
