@@ -1,4 +1,6 @@
 import React from "react";
+import {useDispatch} from "react-redux";
+import {deleteTuit} from "./tuits-reducer";
 import "../home/index.css"
 const TuitItem  = (
  {
@@ -19,6 +21,11 @@ const TuitItem  = (
 }
  }
 ) => {
+    const dispatch = useDispatch();
+const deleteTuitHandler = (id) => {
+  dispatch(deleteTuit(id));
+}
+
  return(
   
     <div className="card wd-post-card">
@@ -32,6 +39,8 @@ const TuitItem  = (
                 <span className="wd-postTrendingTittleSub"> - {post.handle}</span>
                 <span className="wd-postTrendingTittleSub"> - {post.time}</span>
             </p>
+            <i className="bi bi-x-lg float-end" style={{ color: "rgb(110, 118, 125)" }}
+            onClick={() => deleteTuitHandler(post._id)}></i>
   
         </div>
 
