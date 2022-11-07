@@ -15,6 +15,8 @@ const currentUser = {
     "replies": 0,
     "retuits": 0,
     "likes": 0,
+    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "iconImg": "teslaBigLogo.jpg"
    }
 
 
