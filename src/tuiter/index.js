@@ -4,6 +4,8 @@ import NavigationSidebar from "./navigation-sidebar";
 import WhoToFollowList from "./who-to-follow-list";
 import ExploreComponent from "./explore";
 import ProfileComponent from "./profile";
+
+import EditProfile from "./profile/edit-profile"
 import HomeComponent from "./home";
 import {Routes, Route} from "react-router";
 import whoReducer
@@ -32,6 +34,7 @@ const store = configureStore(
                     <Route path="home"    element={<HomeComponent/>}/>
                     <Route path="explore" element={<ExploreComponent/>}/>
                     <Route path="profile" element={<ProfileComponent/>}/>
+                    <Route path="editProfile" element={<EditProfile/>}/>
                 </Routes>
 
             </div>

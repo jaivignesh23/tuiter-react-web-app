@@ -1,10 +1,18 @@
 import React from "react";
 import "./index.css"
 import {useSelector} from "react-redux";
+import { useNavigate } from "react-router";
 
 const ProfileComponent = () => {
 
     const profile = useSelector(state => state.profile)
+
+    const navigate = useNavigate();
+
+    function goToEditProfile(event) {
+
+        navigate('../editProfile');
+      }
     return(
       <div className="profileContainer">
       <h2>Profile</h2>
@@ -16,7 +24,7 @@ const ProfileComponent = () => {
      </div>
 <br />
 
-<button className="btn btn-primary btn-block rounded-pill" style={{ float: "right" }}>
+<button className="btn btn-primary btn-block rounded-pill" onClick={goToEditProfile} style={{ float: "right" }}>
 Edit profile
                                 </button>
 
