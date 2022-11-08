@@ -71,6 +71,7 @@ const EditProfile = () => {
         goToProfile();
     }
 
+    
     return(
         <div className="profileContainer">
         <h2>Edit Profile</h2>
