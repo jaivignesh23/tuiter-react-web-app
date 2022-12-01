@@ -11,7 +11,6 @@ import {Routes, Route} from "react-router";
 import whoReducer
   from "./reducers/who-reducer";
   import tuitsReducer from "./tuits/tuits-reducer";
-
   import profileReducer from "./profile/profile-reducer";
 import { configureStore }
   from '@reduxjs/toolkit';
